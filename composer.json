@@ -1,0 +1,15 @@
+{
+    "name":"acffdev/php-core-template",
+    "description": "template for acffdev/php-core",
+    "type": "template",
+    "license": "MIT",
+    "autoload":{
+        "psr-4": {
+            "Application\\Controllers\\": "application/controllers/",
+            "Application\\Models\\": "application/models/"
+        }
+    },
+    "require": {
+        "acffdev/php-core": ">=1.0.0"
+    }
+}

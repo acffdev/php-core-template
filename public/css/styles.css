@@ -1,0 +1,19 @@
+/* STYLES */
+body {
+    margin:0;
+    background-color: hsl(125, 40%, 40%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main h1 {
+    font-family: sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
